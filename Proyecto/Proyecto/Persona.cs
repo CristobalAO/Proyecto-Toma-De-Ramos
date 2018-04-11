@@ -8,5 +8,15 @@ namespace Proyecto
 {
     class Persona
     {
+        int rut;
+        string nombre, apellido;
+        
+        public Persona(int rut, string nombre, string apellido)
+        {
+            this.rut = rut;
+            this.nombre = nombre;
+            this.apellido = apellido;
+        }
+        
     }
 }
