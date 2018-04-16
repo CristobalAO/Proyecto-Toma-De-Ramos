@@ -9,8 +9,8 @@ namespace Proyecto
     public class NotaAlumno_Curso
     {
         double nota;
-        Alumno = alumno;
-        Seccion = seccion;
+        Alumno  alumno;
+        Seccion  seccion;
         NotaAlumno_Curso(double nota, Alumno alumno, Seccion seccion)
         {
             this.alumno = alumno;
