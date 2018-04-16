@@ -8,10 +8,10 @@ namespace Proyecto
 {
     public class Curso
     {
-      string nrc, nombre;
-      int creditos;
-      List<Curso> requisitos;//esto
-      List<Seccion> secciones;//esto
+      public string nrc, nombre;
+      public int creditos;
+      public List<Curso> requisitos;//esto
+      public List<Seccion> secciones;//esto
 
       public Curso(string nrc, string nombre, int credito)
       {

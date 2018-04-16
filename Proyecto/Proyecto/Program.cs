@@ -24,7 +24,7 @@ namespace Proyecto
                   Console.WriteLine("Ingrese un rut valido: ");
                   rut = Convert.ToInt32(Console.Read());
 
-              Alumno alumno = carrera.alumnos.Find()
+              Alumno alumno = carrera.alumnos.Find();
               }
 
             }
