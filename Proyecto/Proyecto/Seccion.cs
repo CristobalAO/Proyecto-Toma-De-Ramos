@@ -8,10 +8,10 @@ namespace Proyecto
 {
     public class Seccion
     {
-        int vacantes, numero;
-        Horario horario;
-        Profesor profesor;
-        public Seccion(int vacantes,int numero,Horario horario,Profesor profesor,List<Alumno> alumnos)
+        public int vacantes, numero;
+        public Horario horario;
+        public Profesor profesor;
+        public Seccion(int vacantes, int numero, Horario horario, Profesor profesor, List<Alumno> alumnos)
         {
             this.vacantes = vacantes;
             this.numero = numero;

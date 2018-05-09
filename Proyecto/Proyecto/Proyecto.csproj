@@ -43,8 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Curso.cs" />
-    <Compile Include="NotaAlumno_Curso.cs" />
+    <Compile Include="Malla.cs" />
+    <Compile Include="NotaAlumno.cs" />
+    <Compile Include="Personas\Administrativo.cs" />
+    <Compile Include="Personas\Alumno.cs" />
     <Compile Include="Persona.cs" />
+    <Compile Include="Personas\Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Seccion.cs" />
